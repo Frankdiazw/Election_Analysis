@@ -35,6 +35,6 @@ In base of the Figure above and the program made for this elections, five analys
  
 - The Winner of the U.S. congressional precinct in Colorado was: **Diana DeGette** with the **73.8% (272,892)** of the total votes.
 
-## ### Description of code used to run the Stock Analysis :computer:
+### Description of code used to run the Stock Analysis :computer:
 Click in the following link to see a detailed description of the code used in the workbook:
 - :page_with_curl: [Python code for Election Analysis](https://github.com/Frankdiazw/Election_Analysis/blob/main/PyPoll_Challenge_starter_code.py)
