@@ -37,4 +37,4 @@ In base of the Figure above and the program made for this elections, five analys
 
 ## ### Description of code used to run the Stock Analysis :computer:
 Click in the following link to see a detailed description of the code used in the workbook:
-- :page_with_curl: [Python code for Election Analysis]https://github.com/Frankdiazw/Election_Analysis/blob/main/PyPoll_Challenge_starter_code.py)
+- :page_with_curl: [Python code for Election Analysis](https://github.com/Frankdiazw/Election_Analysis/blob/main/PyPoll_Challenge_starter_code.py)
