@@ -1,11 +1,11 @@
-# Election Analysis using Python
+# Election Analysis using Python :bar_chart::snake:
 
 ![](https://github.com/Frankdiazw/Election_Analysis/blob/main/Resources/Elections-Image.png)
 
-## Overview of Project
+## Overview of Project:mag_right:
 This document focuses on reporting the election results for an election audit of the tabulated results for U.S. congressional precinct in Colorado. Using python to import the tabulated results to the IDE and showcase the election results to a text file. In this document, a series of votes were processed and filtered to obtain the total number of votes, the number of votes each candidate obtained and their percentage, and the majority winner of the Colorado elections. Excel is commonly used for this type of data, but in this case an automation of it was sought in Python in order to be able to use this code for other and future elections.
 
-## Election Audit Results
+## Election Audit Results:woman::man::man::statue_of_liberty:
 The election results where the following:
 
 ![](https://github.com/Frankdiazw/Election_Analysis/blob/main/Resources/Electionresults.png)
@@ -33,8 +33,18 @@ In base of the Figure above and the program made for this elections, five analys
   - Diana DeGette obtained 272,892 votes out of 369,711 total votes, resulting in 73.8% in the electoral precinct.
   - Raymon Anthony Doane obtained 11,606 votes out of 369,711 total votes, resulting in 3.1% in the electoral precinct.
  
-- The Winner of the U.S. congressional precinct in Colorado was: **Diana DeGette** with the **73.8% (272,892)** of the total votes.
+:white_check_mark: The Winner of the U.S. congressional precinct in Colorado was: **Diana DeGette** with the **73.8% (272,892)** of the total votes.
 
-### Description of code used to run the Stock Analysis :computer:
+### Description of code used to run the Election Analysis :computer:
 Click in the following link to see a detailed description of the code used in the workbook:
 - :page_with_curl: [Python code for Election Analysis](https://github.com/Frankdiazw/Election_Analysis/blob/main/PyPoll_Challenge_starter_code.py)
+
+## Election Audit Summary:scissors::pencil2:
+The mentioned script is used in the U.S. congressional precinct in Colorado elections to automate the electoral process, in order to obtain a much faster and more accurate response. This script can not only be used for these precinct elections, but for any type of elections, be it State or Federal, this program is capable of performing the same tasks.
+Regarding the above, minuscule changes should be made to the Script in order to avoid syntax errors, the changes are as follows:
+1. The path of the extraction file must be changed, the new data table must be declared with the following syntax:
+  - file_to_load = os.path.join ("Folder", "name_of_archive.csv").
+2. Although the same variables could be left, this step is not so necessary, even as a good programmer, some variables should be renamed since it would not make sense to find a variable named for counties in data that are for states in a presidential election. 
+  - Example: largest_county = "", it could be changed to largest_state = "".
+3. To get the name of any candidate or state, etc. The function was used:
+county_name = row [1], where row [1] is used to loop in the row where you want to get the names. The programmer must identify in which row the information he wants to obtain from the new spreadsheet is located, he must use the following syntax so that errors do not occur when running the program: variable_name = row [x], where x means the row number where the required information is found (remember that it starts counting from 0).
