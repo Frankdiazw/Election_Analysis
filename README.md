@@ -7,3 +7,12 @@ This document focuses on reporting the election results for an election audit of
 
 ## Election Audit Results
 The election results where the following:
+
+![](https://github.com/Frankdiazw/Election_Analysis/blob/main/Resources/Election%20Results.png)
+
+- **Figure 1. Election Results shown in the Terminal of Visual Studio Code.**
+
+In base of the Figure above and the program made for this elections, five analysis can be obtained from the electoral precint:
+- A variable was created to store the number of votes in it (integer data type), a for loop was created in the Excel row to count the number of votes in the elections, resulting in: 369, 711 votes.
+  - The function: total_votes + = 1 was used to count the number of votes that there were during the elections.
+- 
